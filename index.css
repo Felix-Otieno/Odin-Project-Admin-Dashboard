@@ -32,7 +32,7 @@
 }
 
 .sibling > h1 {
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 5vw, 3rem);
     color: #f2f2f2;
     font-weight: 1200;
     margin-top: 0;
@@ -184,6 +184,7 @@
 .art {
     background-color: #ffffff;
     box-shadow: -6px 0 0 0 #efa536;
+    border-radius: 8px;
 }
 
 .char {
@@ -207,6 +208,94 @@
     text-align: end;
     padding: 30px;
 }
+
+.Announcements > h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.ments {
+    background-color: #ffffff;
+    width: 30%;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    text-align: left;
+    padding: 30px;
+}
+
+.tenth > h1 {
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 900;
+}
+
+.tenth > p {
+    color: #191919;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+}
+
+.trending > h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.twenth {
+    background-color: #ffffff;
+    width: 50%;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.pull {
+    border-radius: 60px;
+    margin-top: 30px;
+}
+
+.mannn > h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1rem;
+    word-spacing: 2px;
+}
+
+.mannn > p {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.yard {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 40px;
+}
+
+.theytwo {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+
+}
+
+
 
 
 
